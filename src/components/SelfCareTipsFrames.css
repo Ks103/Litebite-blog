@@ -1,0 +1,113 @@
+.logo-white-3-icon1 {
+  height: 55px;
+  width: 161px;
+  position: relative;
+  object-fit: cover;
+}
+.home1 {
+  text-transform: capitalize;
+}
+.features1,
+.home1,
+.plans1 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.screenshot1 {
+  flex: 1;
+}
+.blog1,
+.contact-us,
+.screenshot1 {
+  position: relative;
+  line-height: 26px;
+  font-weight: 500;
+}
+.blog1 {
+  color: #e27f44;
+}
+.contact-us {
+  flex: 1;
+  white-space: nowrap;
+}
+.terms-conditions-privacy-polic {
+  margin: 0;
+  width: 558px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 17px;
+  color: #fff;
+  font-family: Poppins;
+}
+.get-started2 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.fill-btn5 {
+  flex: 1;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #e27f44, #ff330f);
+  justify-content: flex-start;
+  padding: 10px 22px 10px 21px;
+  white-space: nowrap;
+}
+.fill-btn4,
+.fill-btn5,
+.self-care-tips-frames {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.fill-btn4 {
+  width: 163px;
+  justify-content: flex-start;
+}
+.self-care-tips-frames {
+  margin-top: -7px;
+  align-self: stretch;
+  background-color: #171717;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 26px 119px 26px 91px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1000px) {
+  .terms-conditions-privacy-polic {
+    display: none;
+  }
+}
+@media screen and (max-width: 725px) {
+  .terms-conditions-privacy-polic {
+    gap: 31px 15px;
+  }
+  .self-care-tips-frames {
+    padding-left: 45px;
+    padding-right: 59px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .self-care-tips-frames {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

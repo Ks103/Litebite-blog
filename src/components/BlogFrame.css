@@ -1,0 +1,215 @@
+.nav-bar-frames {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(226, 127, 68, 0.08);
+  z-index: 1;
+}
+.logo-box {
+  width: 103.3px;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 6.5px;
+  box-sizing: border-box;
+}
+.self-care-tips-frames1 {
+  height: 51.5px;
+  width: 103.3px;
+  position: absolute;
+  margin: 0 !important;
+  top: 204.5px;
+  right: 653.7px;
+  border-radius: 50%;
+  background-color: rgba(226, 127, 68, 0.08);
+  z-index: 1;
+}
+.features-frame-icon {
+  height: 660px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.content-frames {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  height: 100%;
+}
+.litebites-blog {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 26px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.liteblog-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 9px;
+}
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  border: 2px solid #6bd6dd;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.rectangle-frame {
+  position: absolute;
+  top: 4.1px;
+  left: 9.2px;
+  border-radius: 2px;
+  background-color: rgba(102, 187, 221, 0.43);
+  width: 3.1px;
+  height: 4.1px;
+  z-index: 1;
+}
+.rectangle-parent {
+  height: 15.3px;
+  width: 20.5px;
+  position: relative;
+  border-radius: 30px;
+  border: 2px solid #6bd6dd;
+  box-sizing: border-box;
+}
+.scroll-down {
+  align-self: stretch;
+  height: 10.2px;
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.scroll-down-button {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2.6000000000001364px 0 0;
+}
+.easy-tips-text,
+.self-care-tips-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.easy-tips-text {
+  width: 116.5px;
+  justify-content: flex-start;
+  gap: 13.19999999999709px;
+}
+.self-care-tips-box {
+  width: 954.3px;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.food-for-thought {
+  margin: 0;
+  align-self: stretch;
+  height: 120px;
+  position: relative;
+  font-size: 100px;
+  line-height: 70px;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-family: Inter;
+  color: #fff;
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 1;
+}
+.food-for-thought-text {
+  width: 1087px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18.40000000000009px;
+  max-width: 100%;
+}
+.blog-frame,
+.scroll-down-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 29px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+.blog-frame {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 139.70000000000005px 65.20000000000073px 212px;
+  position: relative;
+  gap: 35.299999999999955px;
+  flex-shrink: 0;
+  z-index: 3;
+  margin-top: -6px;
+  text-align: left;
+  font-size: 30px;
+  color: #fff;
+  font-family: Poppins;
+}
+@media screen and (max-width: 1000px) {
+  .litebites-blog {
+    font-size: 24px;
+    line-height: 21px;
+  }
+  .food-for-thought {
+    font-size: 50px;
+    line-height: 42px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .blog-frame {
+    gap: 18px 35.299999999999955px;
+    padding-left: 32px;
+    padding-right: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .litebites-blog {
+    font-size: 18px;
+    line-height: 16px;
+  }
+  .food-for-thought {
+    font-size: 30px;
+    line-height: 28px;
+  }
+}
